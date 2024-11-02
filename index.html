@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-B25ZLKQ09B"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-    <title>Web Design & Development Service, Elri Le Grange</title>
-    <meta content="Virtual Assistant" name="description" />
+      gtag('config', 'G-B25ZLKQ09B');
+    </script>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1.0"
+      name="viewport"
+    />
+
+    <title>
+      Web Design & Development Service, Elri Le
+      Grange
+    </title>
+    <meta
+      content="Virtual Assistant"
+      name="description"
+    />
     <meta
       content="Elri Le Grange, Elri Le Grange Virtual Assistant, Virtual Assistant Services,
       Web Designer, Web developer, Web designer Helderberg, Web designer Somerset West, Web designer Strand, Web designer Gordonsbay, Web developer Somerset West, Web designer Cape Town,
@@ -29,12 +52,25 @@
     />
 
     <!-- Favicons -->
-    <link href="assets/img/Logos/El.svg" rel="icon" />
-    <link href="assets/img/Logos/El.svg" rel="El" />
+    <link
+      href="assets/img/Logos/El.svg"
+      rel="icon"
+    />
+    <link
+      href="assets/img/Logos/El.svg"
+      rel="El"
+    />
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com"
+      rel="preconnect"
+    />
+    <link
+      href="https://fonts.gstatic.com"
+      rel="preconnect"
+      crossorigin
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
@@ -53,107 +89,170 @@
       href="assets/vendor/glightbox/css/glightbox.min.css"
       rel="stylesheet"
     />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/swiper/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/aos/aos.css"
+      rel="stylesheet"
+    />
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link
+      href="assets/css/main.css"
+      rel="stylesheet"
+    />
     <!--emailjs se scripts deur Lee-->
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
     ></script>
     <script type="text/javascript">
-      (function() {
+      (function () {
         // https://dashboard.emailjs.com/admin/account
-        emailjs.init("VXTKRfEmEOLQd21N9");
+        emailjs.init('VXTKRfEmEOLQd21N9');
       })();
     </script>
     <script type="text/javascript">
-      window.onload = function() {
+      window.onload = function () {
         document
-          .getElementById("contact-form")
-          .addEventListener("submit", function(event) {
-            event.preventDefault();
-            // these IDs from the previous steps
-            emailjs.sendForm("service_wejf1lj", "template_f2odvvk", this).then(
-              function() {
-                console.log("SUCCESS!");
-                alert("Your mail is sent!");
-                location.reload();
-              },
-              function(error) {
-                console.log("FAILED...", error);
-                alert("Your mail is not sent!");
-              }
-            );
-          });
+          .getElementById('contact-form')
+          .addEventListener(
+            'submit',
+            function (event) {
+              event.preventDefault();
+              // these IDs from the previous steps
+              emailjs
+                .sendForm(
+                  'service_wejf1lj',
+                  'template_f2odvvk',
+                  this
+                )
+                .then(
+                  function () {
+                    console.log('SUCCESS!');
+                    alert('Your mail is sent!');
+                    location.reload();
+                  },
+                  function (error) {
+                    console.log(
+                      'FAILED...',
+                      error
+                    );
+                    alert(
+                      'Your mail is not sent!'
+                    );
+                  }
+                );
+            }
+          );
       };
-    </script>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-50ZFSB8J3B"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-50ZFSB8J3B");
     </script>
   </head>
 
-  <body class="index-page" data-bs-spy="scroll" data-bs-target="/#navmenu">
+  <body
+    class="index-page"
+    data-bs-spy="scroll"
+    data-bs-target="/#navmenu"
+  >
     <!-- ======= Header ======= -->
-    <header id="header" class="header fixed-top d-flex align-items-center">
+    <header
+      id="header"
+      class="header fixed-top d-flex align-items-center"
+    >
       <div
         class="container-fluid d-flex align-items-center justify-content-between"
       >
-        <!--<a
-          href="index.html"
-          class="logo d-flex align-items-center me-auto me-xl-0"
-        >
-           Uncomment the line below if you also wish to use an image logo -->
-        <!--<img src="assets/img/ElLogo1.svg" alt="">
-          <h1>Elri Le Grange</h1>
-        </a>-->
-
         <!-- Nav Menu -->
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="/#hero" class="active">Home</a></li>
-            <li><a href="/#about" class="active">About</a></li>
+            <li>
+              <a href="/#hero" class="active"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="/#about" class="active"
+                >About</a
+              >
+            </li>
             <li class="dropdown has-dropdown">
-              <a href="/#services"
-                ><span>Services</span><i class="bi bi-chevron-down"></i
+              <a href="#services"
+                ><span>Services</span
+                ><i class="bi bi-chevron-down"></i
               ></a>
               <ul class="dd-box-shadow">
-                <li><a href="services-details-Web.html">Web Development</a></li>
-                <li><a href="services-details-Design.html">Design</a></li>
                 <li>
-                  <a href="services-details-VA.html">Virtual Assistant</a>
-                </li>
-                <li><a href="services-details-Ecom.html">E-Commerce</a></li>
-                <li>
-                  <a href="services-details-Hosp.html">Hospitality Support</a>
+                  <a
+                    href="project-management.html"
+                    >Project Management</a
+                  >
                 </li>
                 <li>
-                  <a href="services-details-Photo.html">Product Photography</a>
+                  <a
+                    href="services-details-Web.html"
+                    >Web Development</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="services-details-VA.html"
+                    >Virtual Assistant</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="services-details-Design.html"
+                    >App Development</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="services-details-Design.html"
+                    >Design</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="services-details-Design.html"
+                    >Web Hosting</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="services-details-Ecom.html"
+                    >E-Commerce</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="services-details-Hosp.html"
+                    >Hospitality Support</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="services-details-Photo.html"
+                    >Product Photography</a
+                  >
                 </li>
               </ul>
             </li>
-            <li><a href="/#portfolio">Portfolio</a></li>
-            <li><a href="/#contact">Contact</a></li>
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li><a href="http://elri.co.za/" target="_blank">My Resume</a></li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
 
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+          <i
+            class="mobile-nav-toggle d-xl-none bi bi-list"
+          ></i>
         </nav>
         <!-- End Nav Menu -->
-
-        <a class="btn-getstarted" href="/#about">Get Started</a>
       </div>
     </header>
     <!-- End Header -->
@@ -170,28 +269,21 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-10">
-              <h2 data-aos="fade-up" data-aos-delay="100">
+              <h2
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
                 Efficient Virtual Support
               </h2>
-              <p data-aos="fade-up" data-aos-delay="100">
-                Web Development | Design | Administration | E-Commerce
+              <p
+                data-aos="fade-up"
+                data-aos-delay="100"
+              >
+                Project Management | Web & App
+                Development | Design |
+                Administration
               </p>
             </div>
-            <!--<div class="col-lg-5">
-              <form
-                action="/#"
-                class="sign-up-form d-flex"
-                data-aos="fade-up"
-                data-aos-delay="300"
-              >
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Enter email address"
-                />
-                <input type="submit" class="btn btn-primary" value="Sign up" />
-              </form>
-            </div>-->
           </div>
         </div>
       </section>
@@ -199,43 +291,73 @@
       <!--New ABOUT section-->
       <section id="about" class="features">
         <!--  Section Title-->
-        <div class="container section-title" data-aos="fade-up">
+        <div
+          class="container section-title"
+          data-aos="fade-up"
+        >
           <h2>About</h2>
         </div>
         <!--End Section Title -->
 
         <div class="container">
-          <div class="row gy-4 align-items-center features-item">
+          <div
+            class="row gy-4 align-items-center features-item"
+          >
             <div
               class="col-lg-5 order-2 order-lg-1"
               data-aos="fade-up"
               data-aos-delay="100"
             >
               <h3>
-                Hi there, I'm Elri, your digital partner! Where your digital
-                dreams become reality!
+                Hi there, I'm Elri, your digital
+                partner!
               </h3>
               <p>
-                I'm not just your average virtual assistant, I'm your partner in
-                digital success, driven by a profound passion for startup
-                businesses. Whether you're an entrepreneur, a budding online
-                business owner, or an Airbnb host, let's connect and transform
-                your virtual dreams into reality!
+                I'm a dedicated Project Manager
+                with a profound passion for
+                technology and innovation. With a
+                background in software development
+                and a strong commitment to
+                excellence, I thrive in dynamic
+                environments where I can drive
+                projects from concept to
+                completion.
               </p>
               <p>
-                My expertise encompasses a fusion of web and software
-                development, along with comprehensive design services that
-                elevate your digital footprint. With a keen understanding of the
-                startup landscape, I'm well-equipped to help you navigate the
-                challenges and seize the opportunities that come your way.
+                My journey in tech has been
+                fuelled by a relentless curiosity
+                and a desire to continuously learn
+                and grow. I am passionate about
+                leveraging cutting-edge
+                technologies to create impactful
+                solutions that meet the highest
+                standards of quality and
+                efficiency.
               </p>
               <p>
-                Ready to take your online presence and efficiency to the next
-                level? It's time to embark on this exciting digital journey
-                together. Reach out today, and let's bring your virtual vision
-                to life. Your success is my mission!
+                Throughout my career, I've honed
+                my skills in strategic planning,
+                team leadership, and agile
+                methodologies. I am dedicated to
+                fostering a collaborative and
+                innovative work environment,
+                always striving to exceed
+                expectations and deliver
+                exceptional results.
               </p>
-              <a href="/#services" class="btn btn-get-started">Services</a>
+              <p>
+                In every project I undertake, my
+                goal is to combine technical
+                expertise with strategic vision to
+                achieve success and make a
+                positive impact in the tech
+                industry.
+              </p>
+              <a
+                href="#services"
+                class="btn btn-get-started"
+                >Services</a
+              >
             </div>
             <div
               class="col-lg-7 order-1 order-lg-2 d-flex align-items-center"
@@ -264,95 +386,241 @@
       <!-- Services Section - Home Page -->
       <section id="services" class="services">
         <!--  Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+        <div
+          class="container section-title"
+          data-aos="fade-up"
+        >
           <h2>Services</h2>
           <p>
-            Discover my comprehensive range of services designed to meet your
-            unique needs.
+            Here are the services I offer—built around what you need most.
           </p>
         </div>
         <!-- End Section Title -->
 
         <div class="container">
           <div class="row gy-4">
-            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="col-lg-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i
+                    class="bi bi-calendar4-week"
+                  ></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a
+                      href="project-management.html"
+                      class="stretched-link"
+                      >Technical Project
+                      Manager</a
+                    >
+                  </h4>
+                  <p class="description">
+                    As a Technical Project
+                    Manager, I bridge the gap
+                    between tech and strategy,
+                    driving projects from concept
+                    to completion with precision
+                    and clarity. With a solid
+                    foundation in software
+                    development and UX design, I
+                    lead teams to deliver
+                    solutions that are not only
+                    functional but also
+                    user-focused. My approach
+                    emphasises clear
+                    communication, agile
+                    methodologies, and a
+                    commitment to meeting
+                    deadlines without sacrificing
+                    quality. Whether managing app
+                    development, web solutions, or
+                    integrating new technologies,
+                    I bring an adaptable, hands-on
+                    style to each project,
+                    ensuring outcomes that align
+                    with both client goals and
+                    industry standards.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div
+              class="col-lg-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
                   <i class="bi bi-briefcase"></i>
                 </div>
                 <div>
                   <h4 class="title">
-                    <a href="services-details-Web.html" class="stretched-link"
-                      >Web & Software Development</a
+                    <a
+                      href="services-details-Web.html"
+                      class="stretched-link"
+                      >Web Design & Development</a
                     >
                   </h4>
                   <p class="description">
-                    Elevate your online presence with our Web & Software
-                    Development services, where we specialize in crafting
-                    tailored websites with a strong emphasis on user experience
-                    (UX). Our services encompass not only innovative design but
-                    also a complete package, including hosting, domain
-                    registration, and personalized business email solutions.
-                    We're here to bring your digital vision to life, ensuring
-                    that every aspect of your online presence is optimized for
-                    success.
+                    I specialise in creating
+                    dynamic, user-centered
+                    websites and robust software
+                    applications, such as admin
+                    dashboards and custom
+                    platforms. As a full-stack
+                    developer, I work with a
+                    variety of frameworks to
+                    ensure seamless,
+                    high-performing web solutions
+                    tailored to your needs.
                   </p>
                 </div>
               </div>
             </div>
             <!-- End Service Item -->
-
-            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="col-lg-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
-                  <i class="bi bi-card-checklist"></i>
+                  <i class="bi bi-briefcase"></i>
                 </div>
                 <div>
                   <h4 class="title">
-                    <a href="services-details-VA.html" class="stretched-link"
+                    <a
+                      href="services-details-Web.html"
+                      class="stretched-link"
+                      >Hosting, Domain & Email
+                      Setup</a
+                    >
+                  </h4>
+                  <p class="description">
+                    Through
+                    <a
+                      href="https://www.ft8.co.za/"
+                      target="_blank"
+                      >FT8</a
+                    >, a company I co-own with
+                    Lee, we provide comprehensive
+                    hosting, domain registration,
+                    and professional email setup
+                    to build a solid foundation
+                    for your digital presence. Our
+                    services ensure that your
+                    website is supported with
+                    reliable and scalable
+                    solutions.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+            <div
+              class="col-lg-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i class="bi bi-briefcase"></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a
+                      href="services-details-Web.html"
+                      class="stretched-link"
+                      >Mobile App Development</a
+                    >
+                  </h4>
+                  <p class="description">
+                    From concept to launch, I
+                    offer end-to-end mobile app
+                    development services to bring
+                    your ideas to life on both iOS
+                    and Android. My goal is to
+                    create intuitive, engaging
+                    apps that meet the demands of
+                    your users and drive your
+                    business forward.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Service Item -->
+            <div
+              class="col-lg-6"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="service-item d-flex">
+                <div class="icon flex-shrink-0">
+                  <i
+                    class="bi bi-card-checklist"
+                  ></i>
+                </div>
+                <div>
+                  <h4 class="title">
+                    <a
+                      href="services-details-VA.html"
+                      class="stretched-link"
                       >Virtual Assistant</a
                     >
                   </h4>
                   <p class="description">
-                    Administrative tasks can be overwhelming, but I tackle them
-                    head-on, freeing up your precious time. You can focus on
-                    what truly matters while I manage the nitty-gritty.
-                    Experience seamless support with our Virtual Assistance
-                    services. From Executive Administration to Sales and
-                    Customer Service, Back-office Operations, Personal Life
-                    Tasks, and Specialised Skills, we're here to simplify your
-                    life and help you excel in your endeavors.
+                    Administrative tasks can be overwhelming, but I tackle them head-on to free up your time so you can focus on what truly matters. With my Virtual Assistance services, you’ll receive seamless support in Executive Administration, Sales and Customer Service, Back-office Operations, Personal Life Tasks, and Specialised Skills. Drawing from five years of running my own online shop, I also offer specialised e-commerce assistance, ensuring your business operations are efficient and organised. Let me simplify your life and help you excel in every endeavor.
                   </p>
                 </div>
               </div>
             </div>
             <!-- End Service Item -->
 
-            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="300">
+            <!--<div
+              class="col-lg-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
                   <i class="bi bi-bar-chart"></i>
                 </div>
                 <div>
                   <h4 class="title">
-                    <a href="services-details-Ecom.html" class="stretched-link"
+                    <a
+                      href="services-details-Ecom.html"
+                      class="stretched-link"
                       >E-commerce</a
                     >
                   </h4>
                   <p class="description">
-                    Running an online shop for five years taught me the ropes of
-                    e-commerce. Your online business is safe in my hands. From
-                    crafting cutting-edge websites to ensuring your e-commerce
-                    empire runs like clockwork, I've got you covered. I
-                    understand the intricacies of running a successful online
-                    business. Your e-commerce empire is safe in my hands.
+                    Running an online shop for
+                    five years taught me the ropes
+                    of e-commerce. Your online
+                    business is safe in my hands.
+                    From crafting cutting-edge
+                    websites to ensuring your
+                    e-commerce empire runs like
+                    clockwork, I've got you
+                    covered. I understand the
+                    intricacies of running a
+                    successful online business.
+                    Your e-commerce empire is safe
+                    in my hands.
                   </p>
                 </div>
               </div>
             </div>
-            <!-- End Service Item -->
+             End Service Item -->
 
-            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
+            <!--<div class="col-lg-6 " data-aos="fade-up" data-aos-delay="400">
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
                   <i class="bi bi-binoculars"></i>
@@ -379,12 +647,18 @@
                 </div>
               </div>
             </div>
-            <!-- End Service Item -->
+             End Service Item -->
 
-            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="500">
+            <div
+              class="col-lg-6"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
-                  <i class="bi bi-brightness-high"></i>
+                  <i
+                    class="bi bi-brightness-high"
+                  ></i>
                 </div>
                 <div>
                   <h4 class="title">
@@ -395,21 +669,29 @@
                     >
                   </h4>
                   <p class="description">
-                    Through our design services, we bring creativity to life,
-                    specialising in crafting visually captivating product and
-                    packaging designs, as well as creating a complete business
-                    look and feel. We're committed to making your vision a
-                    visual masterpiece that resonates with your audience. With a
-                    passion for design and a dedication to delivering
-                    excellence, we're here to transform your ideas into visually
-                    appealing realities.
+                    Through our design services,
+                    we bring creativity to life,
+                    specialising in crafting
+                    visually captivating product
+                    and packaging designs, as well
+                    as creating a complete
+                    business look and feel. We're
+                    committed to making your
+                    vision a visual masterpiece
+                    that resonates with your
+                    audience. With a passion for
+                    design and a dedication to
+                    delivering excellence, we're
+                    here to transform your ideas
+                    into visually appealing
+                    realities.
                   </p>
                 </div>
               </div>
             </div>
             <!-- End Service Item -->
 
-            <div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
+            <!--<div class="col-lg-6 " data-aos="fade-up" data-aos-delay="600">
               <div class="service-item d-flex">
                 <div class="icon flex-shrink-0">
                   <i class="bi bi-calendar4-week"></i>
@@ -429,7 +711,7 @@
                 </div>
               </div>
             </div>
-            <!-- End Service Item -->
+             End Service Item -->
           </div>
         </div>
       </section>
@@ -438,20 +720,28 @@
       <!-- Features Section - Home Page -->
       <section id="features" class="features">
         <!--  Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+        <div
+          class="container section-title"
+          data-aos="fade-up"
+        >
           <h2>Features</h2>
           <p>
-            Exciting developments on the horizon! At Elri Le Grange we're
-            currently in the process of crafting websites for a variety of
-            clients, including an alluring online store for a cosmetic company
-            and a sleek website debut for a solar company. Stay tuned for these
+            Exciting developments on the horizon!
+            At Elri Le Grange we're currently in
+            the process of crafting websites for a
+            variety of clients, including an
+            alluring online store for a cosmetic
+            company and a sleek website debut for
+            a solar company. Stay tuned for these
             exciting digital transformations!
           </p>
         </div>
         <!-- End Section Title -->
 
         <div class="container">
-          <div class="row gy-4 align-items-center features-item">
+          <div
+            class="row gy-4 align-items-center features-item"
+          >
             <div
               class="col-lg-5 order-2 order-lg-1"
               data-aos="fade-up"
@@ -459,15 +749,24 @@
             >
               <h3>Anna Lavita</h3>
               <p>
-                Transforming the game for our valued cosmetic partner! We're not
-                just building them a brand-new online store; we're orchestrating
-                a complete business overhaul. From consulting on day-to-day
-                operations to orchestrating a comprehensive rebrand of their
-                products and meticulously formatting all business documents, our
-                role extends far beyond web development. With a heavy emphasis
-                on design, we're poised to take their business to new heights,
-                ushering them from a Facebook and WhatsApp-based operation to a
-                dynamic digital marketplace. Get ready for a seamless shopping
+                Transforming the game for our
+                valued cosmetic partner! We're not
+                just building them a brand-new
+                online store; we're orchestrating
+                a complete business overhaul. From
+                consulting on day-to-day
+                operations to orchestrating a
+                comprehensive rebrand of their
+                products and meticulously
+                formatting all business documents,
+                our role extends far beyond web
+                development. With a heavy emphasis
+                on design, we're poised to take
+                their business to new heights,
+                ushering them from a Facebook and
+                WhatsApp-based operation to a
+                dynamic digital marketplace. Get
+                ready for a seamless shopping
                 experience!
               </p>
               <a
@@ -485,7 +784,7 @@
               <div class="image-stack">
                 <img
                   src="assets/img/portfolio/Anna.png"
-                  alt=""
+                  alt="elri"
                   class="stack-back"
                 />
               </div>
@@ -512,8 +811,10 @@
             >
               <h3>ElectricSky Solar</h3>
               <p>
-                A dynamic website for a forward-thinking solar company. Stay
-                tuned for the launch as we illuminate their green energy
+                A dynamic website for a
+                forward-thinking solar company.
+                Stay tuned for the launch as we
+                illuminate their green energy
                 solutions online!
               </p>
               <!--<ul>
@@ -549,7 +850,9 @@
           </div>
           <!-- Features Item -->
 
-          <div class="row gy-4 align-items-center features-item">
+          <div
+            class="row gy-4 align-items-center features-item"
+          >
             <div
               class="col-lg-5 order-2 order-lg-1"
               data-aos="fade-up"
@@ -557,11 +860,16 @@
             >
               <h3>Wine Taxi</h3>
               <p>
-                Revamping Wine Taxi's Online Experience! Stay tuned for the
-                launch as we uncork a brand-new website, making it easier than
-                ever for wine enthusiasts to embark on their wine adventures
-                with just a few clicks. It's all about simplifying the booking
-                process, so you can focus on sipping and savoring. Cheers to
+                Revamping Wine Taxi's Online
+                Experience! Stay tuned for the
+                launch as we uncork a brand-new
+                website, making it easier than
+                ever for wine enthusiasts to
+                embark on their wine adventures
+                with just a few clicks. It's all
+                about simplifying the booking
+                process, so you can focus on
+                sipping and savoring. Cheers to
                 seamless online experiences!
               </p>
               <a
@@ -594,11 +902,15 @@
       <!-- Portfolio Section - Home Page -->
       <section id="portfolio" class="portfolio">
         <!--  Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+        <div
+          class="container section-title"
+          data-aos="fade-up"
+        >
           <h2>Portfolio</h2>
           <p>
-            Explore my portfolio showcasing a collection of our finest projects
-            and digital creations.
+            Explore my portfolio showcasing a
+            collection of our finest projects and
+            digital creations.
           </p>
         </div>
         <!-- End Section Title -->
@@ -615,13 +927,30 @@
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-web">Websites</li>
-              <li data-filter=".filter-des">Design</li>
-              <li data-filter=".filter-VA">Virtual Assistance</li>
-              <li data-filter=".filter-ecom">E-Commerce</li>
-              <li data-filter=".filter-hosp">Hospitality Support</li>
-              <li data-filter=".filter-photo">Product Photography</li>
+              <li
+                data-filter="*"
+                class="filter-active"
+              >
+                All
+              </li>
+              <li data-filter=".filter-web">
+                Websites
+              </li>
+              <li data-filter=".filter-des">
+                Design
+              </li>
+              <li data-filter=".filter-VA">
+                Virtual Assistance
+              </li>
+              <li data-filter=".filter-ecom">
+                E-Commerce
+              </li>
+              <li data-filter=".filter-hosp">
+                Hospitality Support
+              </li>
+              <li data-filter=".filter-photo">
+                Product Photography
+              </li>
               <!--Web/Software Development-->
             </ul>
             <!-- End Portfolio Filters -->
@@ -653,7 +982,9 @@
                     target="_blank"
                     title="More Details"
                     class="details-link"
-                    ><i class="bi bi-link-45deg"></i
+                    ><i
+                      class="bi bi-link-45deg"
+                    ></i
                   ></a>
                 </div>
               </div>
@@ -673,19 +1004,25 @@
                   />
                   <div class="portfolio-info">
                     <h4>Online store</h4>
-                    <p>Design & Build - Wix 2022</p>
+                    <p>
+                      Design & Build - Wix 2022
+                    </p>
                     <a
                       href="assets/img/portfolio/tresorpackaging.png"
                       title="Tresor Packaging"
                       data-gallery="portfolio-gallery-app"
                       class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
+                      ><i
+                        class="bi bi-zoom-in"
+                      ></i
                     ></a>
                     <a
                       href="services-details-Ecom.html"
                       title="More Details"
                       class="details-link"
-                      ><i class="bi bi-link-45deg"></i
+                      ><i
+                        class="bi bi-link-45deg"
+                      ></i
                     ></a>
                   </div>
                 </div>
@@ -707,13 +1044,17 @@
                       title="Elri Photography"
                       data-gallery="portfolio-gallery-product"
                       class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
+                      ><i
+                        class="bi bi-zoom-in"
+                      ></i
                     ></a>
                     <a
                       href="services-details-Web.html"
                       title="More Details"
                       class="details-link"
-                      ><i class="bi bi-link-45deg"></i
+                      ><i
+                        class="bi bi-link-45deg"
+                      ></i
                     ></a>
                   </div>
                 </div>
@@ -729,19 +1070,25 @@
                   />
                   <div class="portfolio-info">
                     <h4>Document Formatting</h4>
-                    <p>Layout, fonts & typeface</p>
+                    <p>
+                      Layout, fonts & typeface
+                    </p>
                     <a
                       href="assets/img/portfolio/1.png"
                       title="Branding 1"
                       data-gallery="portfolio-gallery-branding"
                       class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
+                      ><i
+                        class="bi bi-zoom-in"
+                      ></i
                     ></a>
                     <a
                       href="services-details-VA.html"
                       title="More Details"
                       class="details-link"
-                      ><i class="bi bi-link-45deg"></i
+                      ><i
+                        class="bi bi-link-45deg"
+                      ></i
                     ></a>
                   </div>
                 </div>
@@ -757,19 +1104,25 @@
                   />
                   <div class="portfolio-info">
                     <h4>Document Formatting</h4>
-                    <p>Layout, fonts & typeface</p>
+                    <p>
+                      Layout, fonts & typeface
+                    </p>
                     <a
                       href="assets/img/portfolio/2.png"
                       title="App 2"
                       data-gallery="portfolio-gallery-app"
                       class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
+                      ><i
+                        class="bi bi-zoom-in"
+                      ></i
                     ></a>
                     <a
                       href="services-details-VA.html"
                       title="More Details"
                       class="details-link"
-                      ><i class="bi bi-link-45deg"></i
+                      ><i
+                        class="bi bi-link-45deg"
+                      ></i
                     ></a>
                   </div>
                 </div>
@@ -791,13 +1144,17 @@
                       title="Product 2"
                       data-gallery="portfolio-gallery-product"
                       class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
+                      ><i
+                        class="bi bi-zoom-in"
+                      ></i
                     ></a>
                     <a
                       href="services-details-Hosp.html"
                       title="More Details"
                       class="details-link"
-                      ><i class="bi bi-link-45deg"></i
+                      ><i
+                        class="bi bi-link-45deg"
+                      ></i
                     ></a>
                   </div>
                 </div>
@@ -813,19 +1170,25 @@
                   />
                   <div class="portfolio-info">
                     <h4>Document Formatting</h4>
-                    <p>Layout, fonts & typeface</p>
+                    <p>
+                      Layout, fonts & typeface
+                    </p>
                     <a
                       href="assets/img/portfolio/AL.png"
                       title="Document Layout"
                       data-gallery="portfolio-gallery-branding"
                       class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
+                      ><i
+                        class="bi bi-zoom-in"
+                      ></i
                     ></a>
                     <a
                       href="services-details-VA.html"
                       title="More Details"
                       class="details-link"
-                      ><i class="bi bi-link-45deg"></i
+                      ><i
+                        class="bi bi-link-45deg"
+                      ></i
                     ></a>
                   </div>
                 </div>
@@ -847,13 +1210,17 @@
                       title="Products"
                       data-gallery="portfolio-gallery-app"
                       class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
+                      ><i
+                        class="bi bi-zoom-in"
+                      ></i
                     ></a>
                     <a
                       href="services-details-Photo.html"
                       title="More Details"
                       class="details-link"
-                      ><i class="bi bi-link-45deg"></i
+                      ><i
+                        class="bi bi-link-45deg"
+                      ></i
                     ></a>
                   </div>
                 </div>
@@ -875,13 +1242,17 @@
                       title="Handmade goods"
                       data-gallery="portfolio-gallery-product"
                       class="glightbox preview-link"
-                      ><i class="bi bi-zoom-in"></i
+                      ><i
+                        class="bi bi-zoom-in"
+                      ></i
                     ></a>
                     <a
                       href="services-details-Photo.html"
                       title="More Details"
                       class="details-link"
-                      ><i class="bi bi-link-45deg"></i
+                      ><i
+                        class="bi bi-link-45deg"
+                      ></i
                     ></a>
                   </div>
                 </div>
@@ -910,7 +1281,9 @@
                     href="services-details-Design.html"
                     title="More Details"
                     class="details-link"
-                    ><i class="bi bi-link-45deg"></i
+                    ><i
+                      class="bi bi-link-45deg"
+                    ></i
                   ></a>
                 </div>
               </div>
@@ -939,7 +1312,9 @@
                     target="_blank"
                     title="More Details"
                     class="details-link"
-                    ><i class="bi bi-link-45deg"></i
+                    ><i
+                      class="bi bi-link-45deg"
+                    ></i
                   ></a>
                 </div>
               </div>
@@ -967,7 +1342,9 @@
                     target="_blank"
                     title="More Details"
                     class="details-link"
-                    ><i class="bi bi-link-45deg"></i
+                    ><i
+                      class="bi bi-link-45deg"
+                    ></i
                   ></a>
                 </div>
               </div>
@@ -995,7 +1372,9 @@
                     target="_blank"
                     title="More Details"
                     class="details-link"
-                    ><i class="bi bi-link-45deg"></i
+                    ><i
+                      class="bi bi-link-45deg"
+                    ></i
                   ></a>
                 </div>
               </div>
@@ -1011,38 +1390,59 @@
       <section id="faq" class="faq">
         <div class="container">
           <div class="row gy-4">
-            <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="col-lg-4"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <div class="content px-xl-5">
                 <h3>
-                  <span>Frequently Asked </span><strong>Questions</strong>
+                  <span>Frequently Asked </span
+                  ><strong>Questions</strong>
                 </h3>
                 <p>
-                  Here, we've anticipated some of your potential questions. If
-                  you don't find what you're looking for, don't hesitate to
-                  reach out to us directly. We're here to provide the answers
-                  and assistance you need.
+                  Here, we've anticipated some of
+                  your potential questions. If you
+                  don't find what you're looking
+                  for, don't hesitate to reach out
+                  to us directly. We're here to
+                  provide the answers and
+                  assistance you need.
                 </p>
               </div>
             </div>
 
-            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="col-lg-8"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <div class="faq-container">
                 <div class="faq-item faq-active">
                   <h3>
                     <span class="num">1.</span>
-                    <span>Web & Software Development</span>
+                    <span
+                      >Web & Software
+                      Development</span
+                    >
                   </h3>
                   <div class="faq-content">
                     <p>
-                      Q: What types of websites or software can you develop?
+                      Q: What types of websites or
+                      software can you develop?
                     </p>
                     <p>
-                      A: We specialize in a wide range of web and software
-                      solutions, from e-commerce platforms to custom websites,
-                      tailored to your specific needs.
+                      A: We specialize in a wide
+                      range of web and software
+                      solutions, from e-commerce
+                      platforms to custom
+                      websites, tailored to your
+                      specific needs.
                     </p>
                   </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
+                  <i
+                    class="faq-toggle bi bi-chevron-right"
+                  ></i>
                 </div>
                 <!-- End Faq item-->
 
@@ -1053,34 +1453,48 @@
                   </h3>
                   <div class="faq-content">
                     <p>
-                      Q: Can you refresh an existing website, or do you only
-                      create new ones?
+                      Q: Can you refresh an
+                      existing website, or do you
+                      only create new ones?
                     </p>
                     <p>
-                      A: We can do both! Whether you need a brand-new website or
-                      a makeover for your current one, we've got you covered.
+                      A: We can do both! Whether
+                      you need a brand-new website
+                      or a makeover for your
+                      current one, we've got you
+                      covered.
                     </p>
                   </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
+                  <i
+                    class="faq-toggle bi bi-chevron-right"
+                  ></i>
                 </div>
                 <!-- End Faq item-->
 
                 <div class="faq-item faq-active">
                   <h3>
                     <span class="num">3.</span>
-                    <span>Virtual Assistance</span>
+                    <span
+                      >Virtual Assistance</span
+                    >
                   </h3>
                   <div class="faq-content">
                     <p>
-                      Q: What tasks can your virtual assistants help with?
+                      Q: What tasks can your
+                      virtual assistants help
+                      with?
                     </p>
                     <p>
-                      A: We can handle everything from administrative tasks to
-                      customer service, allowing you to focus on core business
-                      activities.
+                      A: We can handle everything
+                      from administrative tasks to
+                      customer service, allowing
+                      you to focus on core
+                      business activities.
                     </p>
                   </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
+                  <i
+                    class="faq-toggle bi bi-chevron-right"
+                  ></i>
                 </div>
                 <!-- End Faq item-->
 
@@ -1091,51 +1505,72 @@
                   </h3>
                   <div class="faq-content">
                     <p>
-                      Q: Do you assist with setting up online stores from
-                      scratch?
+                      Q: Do you assist with
+                      setting up online stores
+                      from scratch?
                     </p>
                     <p>
-                      A: Absolutely! We specialize in creating and optimizing
-                      e-commerce platforms, whether you're starting fresh or
-                      need a revamp.
+                      A: Absolutely! We specialize
+                      in creating and optimizing
+                      e-commerce platforms,
+                      whether you're starting
+                      fresh or need a revamp.
                     </p>
                   </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
+                  <i
+                    class="faq-toggle bi bi-chevron-right"
+                  ></i>
                 </div>
                 <div class="faq-item faq-active">
                   <h3>
                     <span class="num">5.</span>
-                    <span>Hospitality Support</span>
+                    <span
+                      >Hospitality Support</span
+                    >
                   </h3>
                   <div class="faq-content">
                     <p>
-                      Q: What services do you provide for Airbnb hosts?
+                      Q: What services do you
+                      provide for Airbnb hosts?
                     </p>
                     <p>
-                      A: We offer comprehensive hospitality support, including
-                      property setup, listing optimization, and guest
-                      communication management.
+                      A: We offer comprehensive
+                      hospitality support,
+                      including property setup,
+                      listing optimization, and
+                      guest communication
+                      management.
                     </p>
                   </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
+                  <i
+                    class="faq-toggle bi bi-chevron-right"
+                  ></i>
                 </div>
                 <div class="faq-item faq-active">
                   <h3>
                     <span class="num">6.</span>
-                    <span>Product Photography</span>
+                    <span
+                      >Product Photography</span
+                    >
                   </h3>
                   <div class="faq-content">
                     <p>
-                      Q: Do you offer on-location photography, or is it
+                      Q: Do you offer on-location
+                      photography, or is it
                       studio-based?
                     </p>
                     <p>
-                      A: Our product photography services are flexible. We can
-                      shoot in a studio or come to your location, ensuring your
-                      products always look their best.
+                      A: Our product photography
+                      services are flexible. We
+                      can shoot in a studio or
+                      come to your location,
+                      ensuring your products
+                      always look their best.
                     </p>
                   </div>
-                  <i class="faq-toggle bi bi-chevron-right"></i>
+                  <i
+                    class="faq-toggle bi bi-chevron-right"
+                  ></i>
                 </div>
                 <!-- End Faq item-->
               </div>
@@ -1146,8 +1581,14 @@
       <!-- End Faq Section -->
 
       <!-- Call-to-action Section - Home Page -->
-      <section id="call-to-action" class="call-to-action">
-        <img src="assets/img/laptop-1478822_1920.jpg" alt="pic of laptop" />
+      <section
+        id="call-to-action"
+        class="call-to-action"
+      >
+        <img
+          src="assets/img/laptop-1478822_1920.jpg"
+          alt="pic of laptop"
+        />
 
         <div class="container">
           <div
@@ -1159,17 +1600,20 @@
               <div class="text-center">
                 <h3>Let's chat</h3>
                 <p>
-                  Ready to elevate your digital presence? Let's chat and make
+                  Ready to elevate your digital
+                  presence? Let's chat and make
                   your vision a reality today!
                 </p>
-                <a class="cta-btn" href="/#contact">Get in touch</a>
+                <a class="cta-btn" href="#contact"
+                  >Get in touch</a
+                >
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- End Call-to-action Section -->
-      <!-- Clients Section - Home Page -->
+      <!-- Clients Section - Home Page 
       <section id="clients" class="clients">
         <div class="container-fluid" data-aos="fade-up">
           <div class="row gy-4">
@@ -1179,8 +1623,8 @@
                 class="img-fluid"
                 alt="Anna Lavita Logo"
               />
-            </div>
-            <!-- End Client Item -->
+            </div>-->
+      <!-- End Client Item 
 
             <div class="col-xl-2 col-md-3 col-6 client-logo">
               <img
@@ -1188,8 +1632,8 @@
                 class="img-fluid"
                 alt="ElectricSky logo"
               />
-            </div>
-            <!-- End Client Item -->
+            </div>-->
+      <!-- End Client Item 
 
             <div class="col-xl-2 col-md-3 col-6 client-logo">
               <img
@@ -1197,8 +1641,8 @@
                 class="img-fluid"
                 alt="Just Motion Logo"
               />
-            </div>
-            <!-- End Client Item -->
+            </div>-->
+      <!-- End Client Item 
             <div class="col-xl-2 col-md-3 col-6 client-logo">
               <img
                 src="assets/img/clients/winetaxi.png"
@@ -1208,29 +1652,111 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- End Clients Section -->
       <!-- Testimonials Section - Home Page -->
-      <section id="testimonials" class="testimonials">
+      <section
+        id="testimonials"
+        class="testimonials"
+      >
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="col-lg-5 info"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <h3>Testimonials</h3>
               <p>
-                Discover what my satisfied clients have to say about their
-                experiences working with me. Their words speak volumes about our
+                Discover what my satisfied clients
+                have to say about their
+                experiences working with me. Their
+                words speak volumes about our
                 commitment to excellence.
               </p>
             </div>
 
-            <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="col-lg-7"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <div class="swiper">
                 <template class="swiper-config">
-                  { "loop": true, "speed" : 600, "autoplay": { "delay": 5000 },
-                  "slidesPerView": "auto", "pagination": { "el":
-                  ".swiper-pagination", "type": "bullets", "clickable": true } }
+                  { "loop": true, "speed" : 600,
+                  "autoplay": { "delay": 5000 },
+                  "slidesPerView": "auto",
+                  "pagination": { "el":
+                  ".swiper-pagination", "type":
+                  "bullets", "clickable": true } }
                 </template>
                 <div class="swiper-wrapper">
+                  <!--Review 1-->
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img
+                          src="assets/img/clients/farmLogo.png"
+                          class="testimonial-img flex-shrink-0"
+                          alt=""
+                        />
+                        <div>
+                          <h3>Petre Beukes</h3>
+                          <h4>
+                            Farmhouse Fitness
+                          </h4>
+                          <div class="stars">
+                            <i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i
+                          class="bi bi-quote quote-icon-left"
+                        ></i>
+                        <span
+                          >I had the pleasure of
+                          working with Elri as my
+                          virtual assistant, and I
+                          couldn’t be more
+                          satisfied with her
+                          performance. She was
+                          incredibly efficient,
+                          organized, and proactive
+                          in managing tasks,
+                          always delivering
+                          high-quality work.
+                          Elri’s attention to
+                          detail and strong
+                          communication skills
+                          made everything run
+                          smoothly. I highly
+                          recommend her to anyone
+                          in need of a reliable
+                          and skilled
+                          assistant.</span
+                        >
+                        <i
+                          class="bi bi-quote quote-icon-right"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                  <!--Review 2-->
                   <div class="swiper-slide">
                     <div class="testimonial-item">
                       <div class="d-flex">
@@ -1240,32 +1766,58 @@
                           alt=""
                         />
                         <div>
-                          <h3>Martin Le Grange</h3>
-                          <h4>Ceo & Founder - Just Motion Productions</h4>
+                          <h3>
+                            Martin Le Grange
+                          </h3>
+                          <h4>
+                            Ceo & Founder - Just
+                            Motion Productions
+                          </h4>
                           <div class="stars">
-                            <i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i>
+                            <i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i>
                           </div>
                         </div>
                       </div>
                       <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
+                        <i
+                          class="bi bi-quote quote-icon-left"
+                        ></i>
                         <span
-                          >I was in need of assistance in transforming a budget
-                          layout into a professional proposal format, and Elri
-                          efficiently guided me to achieve that goal. This was
-                          accomplished using a stunning template, and the entire
-                          process took just a few hours.</span
+                          >I was in need of
+                          assistance in
+                          transforming a budget
+                          layout into a
+                          professional proposal
+                          format, and Elri
+                          efficiently guided me to
+                          achieve that goal. This
+                          was accomplished using a
+                          stunning template, and
+                          the entire process took
+                          just a few hours.</span
                         >
-                        <i class="bi bi-quote quote-icon-right"></i>
+                        <i
+                          class="bi bi-quote quote-icon-right"
+                        ></i>
                       </p>
                     </div>
                   </div>
                   <!-- End testimonial item-->
-
+                  <!--Review 3-->
                   <div class="swiper-slide">
                     <div class="testimonial-item">
                       <div class="d-flex">
@@ -1276,33 +1828,112 @@
                         />
                         <div>
                           <h3>Madelein Koen</h3>
-                          <h4>CEO & Founder - Anna Lavita Perfumes</h4>
+                          <h4>
+                            CEO & Founder - Anna
+                            Lavita Perfumes
+                          </h4>
                           <div class="stars">
-                            <i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i
-                            ><i class="bi bi-star-fill"></i>
+                            <i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i>
                           </div>
                         </div>
                       </div>
                       <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
+                        <i
+                          class="bi bi-quote quote-icon-left"
+                        ></i>
                         <span
-                          >Great, Effective, and Speedy service!! I had a
-                          wonderful experience working with Elri. The edits were
-                          done quickly and correctly. It was very easy to
-                          communicate with her, she just exceeded my
-                          expectations. Very quick to respond to my requests or
-                          update my files and she were always very friendly and
-                          enthusiastic in my communications.</span
+                          >Great, Effective, and
+                          Speedy service!! I had a
+                          wonderful experience
+                          working with Elri. The
+                          edits were done quickly
+                          and correctly. It was
+                          very easy to communicate
+                          with her, she just
+                          exceeded my
+                          expectations. Very quick
+                          to respond to my
+                          requests or update my
+                          files and she were
+                          always very friendly and
+                          enthusiastic in my
+                          communications.</span
                         >
-                        <i class="bi bi-quote quote-icon-right"></i>
+                        <i
+                          class="bi bi-quote quote-icon-right"
+                        ></i>
                       </p>
                     </div>
                   </div>
+                  <!--End-->
+                  <!--Review 4
+                  <div class="swiper-slide">
+                    <div class="testimonial-item">
+                      <div class="d-flex">
+                        <img
+                          src="assets/img/clients/winetaxi.png"
+                          class="testimonial-img flex-shrink-0"
+                          alt=""
+                        />
+                        <div>
+                          <h3>
+                           Ettiene
+                          </h3>
+                          <h4>
+                            WineTaxi
+                          </h4>
+                          <div class="stars">
+                            <i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i
+                            ><i
+                              class="bi bi-star-fill"
+                            ></i>
+                          </div>
+                        </div>
+                      </div>
+                      <p>
+                        <i
+                          class="bi bi-quote quote-icon-left"
+                        ></i>
+                        <span
+                          >I had the pleasure of working with Elri as my virtual assistant, and I couldn’t be more satisfied with her performance. 
+                          She was incredibly efficient, organized, and proactive in managing tasks, always delivering high-quality work. 
+                          Elri’s attention to detail and strong communication skills made everything run smoothly. I highly recommend her to anyone in need of a reliable and skilled assistant.</span
+                        >
+                        <i
+                          class="bi bi-quote quote-icon-right"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>-->
                 </div>
-                <div class="swiper-pagination"></div>
+                <div
+                  class="swiper-pagination"
+                ></div>
               </div>
             </div>
           </div>
@@ -1313,20 +1944,29 @@
       <!-- Contact Section - Home Page -->
       <section id="contact" class="contact">
         <!--  Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+        <div
+          class="container section-title"
+          data-aos="fade-up"
+        >
           <h2>Contact</h2>
-          <p>
-            Get in touch
-          </p>
+          
         </div>
         <!-- End Section Title -->
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div
+          class="container"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           <div class="row gy-4">
             <div class="col-lg-6">
               <div class="row gy-4">
                 <div class="col-md-6">
-                  <div class="info-item" data-aos="fade" data-aos-delay="100">
+                  <div
+                    class="info-item"
+                    data-aos="fade"
+                    data-aos-delay="100"
+                  >
                     <i class="bi bi-geo-alt"></i>
                     <h3>Address</h3>
                     <p>Waterford Close</p>
@@ -1336,19 +1976,32 @@
                 <!-- End Info Item -->
 
                 <div class="col-md-6">
-                  <div class="info-item" data-aos="fade" data-aos-delay="300">
-                    <i class="bi bi-telephone"></i>
-                    <h3>Call Us</h3>
-                    <a href="tel:+27822536345"> +27 082 253 6345</a>
+                  <div
+                    class="info-item"
+                    data-aos="fade"
+                    data-aos-delay="300"
+                  >
+                    <i
+                      class="bi bi-telephone"
+                    ></i>
+                    <h3>Call</h3>
+                    <a href="tel:+27822536345">
+                      +27 082 253 6345</a
+                    >
                   </div>
                 </div>
                 <!-- End Info Item -->
 
                 <div class="col-md-6">
-                  <div class="info-item" data-aos="fade" data-aos-delay="400">
+                  <div
+                    class="info-item"
+                    data-aos="fade"
+                    data-aos-delay="400"
+                  >
                     <i class="bi bi-envelope"></i>
-                    <h3>Email Us</h3>
-                    <a href="mailto:info@elrilegrange.co.za"
+                    <h3>Email</h3>
+                    <a
+                      href="mailto:info@elrilegrange.co.za"
                       >info@elrilegrange.co.za</a
                     >
                   </div>
@@ -1356,7 +2009,11 @@
                 <!-- End Info Item -->
 
                 <div class="col-md-6">
-                  <div class="info-item" data-aos="fade" data-aos-delay="500">
+                  <div
+                    class="info-item"
+                    data-aos="fade"
+                    data-aos-delay="500"
+                  >
                     <i class="bi bi-clock"></i>
                     <h3>Open Hours</h3>
                     <p>Monday - Friday</p>
@@ -1388,7 +2045,7 @@
                       />
                     </div>
                     <!-- Email address input-->
-                    <div class="col-md-6 ">
+                    <div class="col-md-6">
                       <input
                         type="email"
                         class="form-control"
@@ -1442,21 +2099,30 @@
     <footer id="footer" class="footer">
       <div class="container footer-top">
         <div class="row gy-4">
-          <div class="col-lg-5 col-md-12 footer-about">
-            <a href="index.html" class="logo d-flex align-items-center">
+          <div
+            class="col-lg-5 col-md-12 footer-about"
+          >
+            <a
+              href="index.html"
+              class="logo d-flex align-items-center"
+            >
               <span>Elri Le Grange</span>
             </a>
-            <p>
-              Your Success, Our Mission.
-            </p>
+            <p>Your Success, Our Mission.</p>
             <div class="social-links d-flex mt-4">
-              <a href="https://web.facebook.com/elrilegrange" target="_blank"
+              <a
+                href="https://web.facebook.com/elrilegrange"
+                target="_blank"
                 ><i class="bi bi-facebook"></i
               ></a>
-              <a href="https://www.instagram.com/elrilegrange/" target="_blank"
+              <a
+                href="https://www.instagram.com/elrilegrange/"
+                target="_blank"
                 ><i class="bi bi-instagram"></i
               ></a>
-              <a href="https://www.linkedin.com/in/elrivdmerwe/" target="_blank"
+              <a
+                href="https://www.linkedin.com/in/elrivdmerwe/"
+                target="_blank"
                 ><i class="bi bi-linkedin"></i
               ></a>
               <a
@@ -1467,31 +2133,50 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-6 footer-links">
+          <div
+            class="col-lg-2 col-6 footer-links"
+          >
             <h4>Useful Links</h4>
             <ul>
-              <li><a href="/#">Home</a></li>
-              <li><a href="/#about">About us</a></li>
-              <li><a href="/#services">Services</a></li>
-              <!--<li><a href="/#">Terms of service</a></li>
-              <li><a href="/#">Privacy policy</a></li>-->
+              <li><a href="#">Home</a></li>
+              <li>
+                <a href="#about">About us</a>
+              </li>
+              <li>
+                <a href="#services" target="_blank">Services</a>
+              </li>
+              <li><a href="http://elri.co.za/">My Resume</a></li>
+             <!-- <li><a href="/#">Privacy policy</a></li>-->
             </ul>
           </div>
 
-          <div class="col-lg-2 col-6 footer-links">
+          <div
+            class="col-lg-2 col-6 footer-links"
+          >
             <h4>Our Services</h4>
             <ul>
               <li>
-                <a href="services-details-Web.html">Web/Software Development</a>
-              </li>
-              <li><a href="services-details-Design.html">Design</a></li>
-              <li><a href="services-details-VA.html">Virtual Assistance</a></li>
-              <li><a href="services-details-Ecom.html">E-commerce</a></li>
-              <li>
-                <a href="services-details-Hosp.html">Hospitality Support</a>
+                <a
+                  href="#"
+                  >Project Management</a
+                >
               </li>
               <li>
-                <a href="services-details-Photo.html">Product Photography</a>
+                <a
+                  href="services-details-Web.html"
+                  >Web Design & Development</a
+                >
+              </li>
+              <li>
+                <a href="services-details-VA.html"
+                  >Virtual Assistance</a
+                >
+              </li>
+              <li>
+                <a
+                  href="services-details-Design.html"
+                  >Design</a
+                >
               </li>
             </ul>
           </div>
@@ -1505,12 +2190,18 @@
             <p>South Africa</p>
             <p class="mt-4">
               <strong>Phone:</strong
-              ><span><a href="tel:+27822536345"> +27 082 253 6345</a></span>
+              ><span
+                ><a href="tel:+27822536345">
+                  +27 082 253 6345</a
+                ></span
+              >
             </p>
             <p>
               <strong>Email:</strong>
               <span
-                ><a href="mailto:info@elrilegrange.co.za">
+                ><a
+                  href="mailto:info@elrilegrange.co.za"
+                >
                   info@elrilegrange.co.za</a
                 ></span
               >
@@ -1519,10 +2210,14 @@
         </div>
       </div>
 
-      <div class="container copyright text-center mt-4">
+      <div
+        class="container copyright text-center mt-4"
+      >
         <p>
           &copy; <span>Copyright</span>
-          <strong class="px-1">Elri Le Grange</strong>
+          <strong class="px-1"
+            >Elri Le Grange</strong
+          >
           <span>All Rights Reserved</span>
         </p>
       </div>
@@ -1556,5 +2251,18 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/672604cd2480f5b4f597d02e/1ibm85gv1';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
   </body>
 </html>
